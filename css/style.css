@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  font-family: 'Khula', sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+#main {
+  background: url(../img/electrician-installer-with-tool-his-hands-working-with-cable-construction-site\ 1.jpg) no-repeat center/cover;
+  background-color: #FFF;
+  height: 1014px;
+  width: 100%;
+  margin: auto;
+  max-height: 1014px;
+  overflow: hidden; }
+  #main .main-contacts {
+    background: rgba(0, 0, 0, 0.31); }
+    #main .main-contacts .phone {
+      color: #FFF; }
+    #main .main-contacts a.phone:hover {
+      text-decoration: none;
+      filter: opacity(0.7); }
+    #main .main-contacts a.social:hover {
+      filter: opacity(0.7); }
+  #main .logo a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FF9900;
+    letter-spacing: 2px; }
+  #main .nav-link {
+    color: #FFF;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    border-bottom: 3px solid transparent; }
+  #main .nav-link:hover {
+    color: #FF9900;
+    border-bottom: 3px solid #FF9900;
+    outline: none; }
+  #main .btn-callback {
+    color: #FF9900;
+    font-weight: 400;
+    font-size: 16px;
+    background: transparent;
+    padding: 9px 5px 7px 5px;
+    border: 2px solid #FF9900; }
+  #main .btn-callback:hover {
+    color: #FFF;
+    background: #FF9900; }
+  #main .main-content h2 {
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px; }
+  #main .main-content p {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px; }
+  #main .primary-btn {
+    color: #FFF;
+    background: #FF9900;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 9px 5px 7px 5px;
+    border: 2px solid #FF9900; }
+  #main .primary-btn:hover {
+    color: #FF9900;
+    background: transparent;
+    border: 2px solid #FF9900; }
+  #main .main-footer {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    position: absolute;
+    height: 169px;
+    top: 845px;
+    border-top: 1px solid rgba(255, 255, 255, 0.46); }
+    #main .main-footer .main-footer-description {
+      color: #FFF;
+      font-size: 20px;
+      text-align: center; }
+    #main .main-footer .main-footer-img {
+      position: absolute;
+      filter: opacity(0.51); }
+
+#about {
+  background-color: #FFF; }
+  #about .about-cover {
+    background: url(../img/charles-deluvio-c2thq3SXJiA-unsplash\ 1.png) no-repeat center/cover;
+    min-height: 665px; }
+    #about .about-cover .experience {
+      background-color: #FFB800; }
+      #about .about-cover .experience h1 {
+        font-family: 'Playfair Display', serif;
+        color: #FFF;
+        font-size: 70px; }
+      #about .about-cover .experience p {
+        color: #FFF;
+        font-weight: 300;
+        font-size: 30px; }
+  #about .about-us-wrapper {
+    background: url(../img/two-bedroom-x2--plan\ 2.png) no-repeat;
+    mix-blend-mode: multiply;
+    background-size: auto 75%;
+    background-position: 100% 160%;
+    background-attachment: scroll; }
+  #about .about-us h1 {
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-size: 40px; }
+  #about .about-us .heading-description {
+    color: #FF9900;
+    letter-spacing: 9.7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px; }
+  #about .about-us .description {
+    color: #7C7C7C;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.2px; }
+
+#prices {
+  background-color: #000; }
+  #prices .heading-description {
+    color: #FF9900;
+    letter-spacing: 9.7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px; }
+  #prices h1 {
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 40px; }
+  #prices .step-wrapper {
+    width: 66px;
+    height: 66px;
+    padding: 0;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    display: block; }
+  #prices .line {
+    border-top: 1px solid #FFF;
+    width: 60px; }
+  #prices .transparent-line {
+    border-top: 1px solid transparent;
+    width: 60px; }
+  #prices .step-description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFF;
+    letter-spacing: 0.2px; }
+
+#portfolio h1 {
+  font-family: 'Playfair Display', serif;
+  color: #000;
+  font-size: 40px; }
+#portfolio .heading-description {
+  color: #FF9900;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px; }
+#portfolio .project-description h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px; }
+#portfolio .project-description p {
+  font-size: 18px;
+  letter-spacing: 0.2px; }
+#portfolio .project-description-wrapper {
+  background: url(../img/two-bedroom-x2--plan\ 2.png) no-repeat;
+  mix-blend-mode: multiply;
+  background-size: auto 75%;
+  background-position: 100% 160%;
+  background-attachment: scroll; }
+#portfolio .carousel-indicators {
+  background-color: #FFB800; }
+  #portfolio .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; }
+#portfolio .portfolio-img {
+  background-color: #FFB800; }
+#portfolio .img-preview {
+  width: 100px;
+  height: 100px;
+  margin: 0 0 30px 0; }
+
+#reviews {
+  background: url(../img/handyman-uses-jackhammer-for-installation-professional-worker-on-the-construction-site-the-concept-of-electrician-and-handyman\ 1.png) no-repeat center/cover;
+  min-height: 670px; }
+  #reviews .reviews-heading-description {
+    color: #FF9900;
+    letter-spacing: 9.7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px; }
+  #reviews h1 {
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 40px; }
+  #reviews .container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    min-height: 670px;
+    width: 50%; }
+  #reviews .review {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF; }
+  #reviews .review-description {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF; }
+  #reviews .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; }
+  #reviews #carouselExampleIndicators {
+    min-height: 670px; }
+
+#contacts {
+  background-color: #FFB800; }
+  #contacts .container {
+    width: 50%; }
+  #contacts h1 {
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 40px; }
+  #contacts p {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 18px; }
+  #contacts .contact-form input {
+    background: none;
+    border-width: 0 0 1px;
+    border-color: rgba(255, 255, 255, 0.72);
+    outline: 0; }
+  #contacts .contact-form input::placeholder {
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 300;
+    letter-spacing: 0.07em;
+    line-height: 19px;
+    padding-left: 5px; }
+  #contacts .submit-btn {
+    padding: 9px 9px 7px 9px;
+    color: #FFB800;
+    background: #FFF;
+    border: 2px solid #FFB800;
+    outline: none; }
+  #contacts .submit-btn:hover {
+    color: #000;
+    border: 2px solid #000;
+    filter: opacity(0.9); }
+
+footer {
+  background-color: #000; }
+  footer .logo a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FF9900;
+    letter-spacing: 2px; }
+  footer .footer-info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.7px;
+    color: #FFF; }
+  footer a.footer-info:hover {
+    color: #FF9900;
+    text-decoration: none; }
+  footer a.social {
+    filter: opacity(0.2); }
+  footer a.social:hover {
+    filter: opacity(0.7); }
+  footer .footer-line {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.29); }
+  footer .copyright-info {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: rgba(255, 255, 255, 0.29); }
+
+@media only screen and (max-width: 768px) {
+  .main-content h2 {
+    font-size: 28px; }
+
+  #reviews .container {
+    width: 90%; }
+
+  #contacts .container {
+    width: 75%; } }
